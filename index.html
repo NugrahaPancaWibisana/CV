@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- favicon -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%2210 0 100 100%22><text y=%22.90em%22 font-size=%2290%22>✨</text></svg>">
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%2210 0 100 100%22><text y=%22.90em%22 font-size=%2290%22>✨</text></svg>"
+    />
 
     <!-- Bootstrap & styles link -->
     <link rel="stylesheet" href="styles/style.css" />
@@ -57,6 +60,9 @@
             <li class="nav-item">
               <a href="#Contact" class="nav-link">Contact</a>
             </li>
+            <li class="nav-item">
+              <a href="#cv" class="nav-link">CV</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -74,7 +80,9 @@
           <p class="fs-4"><b>JUNIOR FULLSTACK DEVELOPER</b></p>
           <div class="button d-flex gap-3">
             <button type="button" class="btn btn-dark">HIRE ME</button>
-            <button type="button" class="btn btn-outline-dark"><a class="nav-link" href="cv.html">GET CV</a></button>
+            <button type="button" class="btn btn-outline-dark">
+              <a class="nav-link" href="#cv">GET CV</a>
+            </button>
           </div>
         </div>
         <img class="img-fluid" src="images/me.webp" width="600" />
@@ -122,14 +130,16 @@
         class="container vh-100 d-flex flex-column justify-content-center align-items-start"
         id="Services"
       >
-      <p class="fs-2">ALL OF MY SERVICES</p>
+        <p class="fs-2">ALL OF MY SERVICES</p>
         <div class="row">
           <div class="col-sm-3">
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">WEB DESIGN</h5>
                 <p class="card-text">
-                    Service design is a multidisciplinary approach to designing and improving services to make them more efficient, user-friendly, and customer-centric.
+                  Service design is a multidisciplinary approach to designing
+                  and improving services to make them more efficient,
+                  user-friendly, and customer-centric.
                 </p>
                 <a href="#" class="btn btn-dark">CONTACT</a>
               </div>
@@ -140,7 +150,9 @@
               <div class="card-body">
                 <h5 class="card-title">FRONTEND DEVELOPMENT</h5>
                 <p class="card-text">
-                    This refers to the process of developing the user interface and user experience components of a service, typically focusing on the client-side.
+                  This refers to the process of developing the user interface
+                  and user experience components of a service, typically
+                  focusing on the client-side.
                 </p>
                 <a href="#" class="btn btn-dark">CONTACT</a>
               </div>
@@ -151,7 +163,8 @@
               <div class="card-body">
                 <h5 class="card-title">BACKEND DEVELOPMENT</h5>
                 <p class="card-text">
-                    refers to the process of creating and maintaining the server-side components of a software application or system.
+                  refers to the process of creating and maintaining the
+                  server-side components of a software application or system.
                 </p>
                 <a href="#" class="btn btn-dark">CONTACT</a>
               </div>
@@ -162,7 +175,9 @@
               <div class="card-body">
                 <h5 class="card-title">DEVELOP WEBSITE</h5>
                 <p class="card-text">
-                    typically refers to the provision of services related to the creation, design, and development of websites This encompasses various.
+                  typically refers to the provision of services related to the
+                  creation, design, and development of websites This encompasses
+                  various.
                 </p>
                 <a href="#" class="btn btn-dark">CONTACT</a>
               </div>
@@ -171,22 +186,82 @@
         </div>
       </section>
 
+      <!-- header cv -->
+      <div
+        class="container-fluid d-flex flex-column justify-content-center align-items-center shadow"
+        id="cv"
+      >
+        <img class="img-fluid" src="images/me.webp" width="300" />
+        <p class="fs-3">NUGRAHA PANCA WIBISANA</p>
+      </div>
+
+      <!-- main cv -->
+      <div class="container">
+        <p class="fs-4 mt-5"><u>PERSONAL DETAIL</u></p>
+        <ul style="list-style: '- '">
+          <li class="d-flex flex-row">
+            <p class="fs-6 w-25">NAME</p>
+            <p>: NUGRAHA PANCA WIBISANA</p>
+          </li>
+          <li class="d-flex flex-row">
+            <p class="fs-6 w-25">PLACE/DATE OF BIRTH</p>
+            <p>: SUBANG, 20 MARCH 2007</p>
+          </li>
+          <li class="d-flex flex-row">
+            <p class="fs-6 w-25">GENDER</p>
+            <p>: MALE</p>
+          </li>
+          <li class="d-flex flex-row">
+            <p class="fs-6 w-25">SCHOOL</p>
+            <p>: SMKN 1 SUBANG</p>
+          </li>
+          <li class="d-flex flex-row">
+            <p class="fs-6 w-25">MAJORING</p>
+            <p>: SOFTWARE ENGINEERING</p>
+          </li>
+          <li class="d-flex flex-row">
+            <p class="fs-6 w-25">CITIZENSHIP</p>
+            <p>: INDONESIA</p>
+          </li>
+        </ul>
+
+        <p class="fs-4 mt-5">EDUCATION</p>
+        <ul style="list-style: '- '">
+          <li>SDN BALEBAT</li>
+          <li>SMP NEGERI 1 PUSAKANAGARA</li>
+          <li>SMKN 1 SUBANG</li>
+        </ul>
+      </div>
+
       <section
         class="container vh-100 d-flex flex-column justify-content-center align-items-center"
         id="Contact"
       >
-      <p class="fs-2">CONTACT</p>
-      <ul style="list-style-type: none;">
-        <li class="fs-4"><ion-icon name="logo-github"></ion-icon> MY GITHUB : <a href="https://github.com/NugrahaPancaWibisana">NugrahaPancaWibisana</a></li>
-        <li class="fs-4"><ion-icon name="logo-instagram"></ion-icon> MY INSTAGRAM : <a href="https://www.instagram.com/wibi.mv/">wibi.mv</a></li>
-        <li class="fs-4"><ion-icon name="logo-discord"></ion-icon> MY DISCORD : <a href="https://discord.gg/kJvnWASRP">iwslyb</a></li>
-      </ul>
-    </section>
+        <p class="fs-2">CONTACT</p>
+        <ul style="list-style-type: none">
+          <li class="fs-4">
+            <ion-icon name="logo-github"></ion-icon> MY GITHUB :
+            <a href="https://github.com/NugrahaPancaWibisana"
+              >NugrahaPancaWibisana</a
+            >
+          </li>
+          <li class="fs-4">
+            <ion-icon name="logo-instagram"></ion-icon> MY INSTAGRAM :
+            <a href="https://www.instagram.com/wibi.mv/">wibi.mv</a>
+          </li>
+          <li class="fs-4">
+            <ion-icon name="logo-discord"></ion-icon> MY DISCORD :
+            <a href="https://discord.gg/kJvnWASRP">iwslyb</a>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <!-- footer -->
-    <footer class="container-fluid bg-custom white d-flex justify-content-center align-items-center p-3">
-        <p class="fs-4">&copy; NUGRAHA PANCA WIBISANA 2023</p>
+    <footer
+      class="container-fluid bg-custom white d-flex justify-content-center align-items-center p-3"
+    >
+      <p class="fs-4">&copy; NUGRAHA PANCA WIBISANA 2023</p>
     </footer>
 
     <!-- Bootstrap & Icons Script -->
